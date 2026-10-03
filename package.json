@@ -1,0 +1,24 @@
+{
+  "name": "clinvideo",
+  "version": "1.0.0",
+  "description": "Aplicativo de chamadas de video por telemedicina",
+  "homepage": "https://github.com/valdecirwm/ClinVideo#readme",
+  "bugs": {
+    "url": "https://github.com/valdecirwm/ClinVideo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdecirwm/ClinVideo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
