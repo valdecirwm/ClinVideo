@@ -1,0 +1,17 @@
+body{
+    background-color: #252525;
+    color: #fff;
+}
+
+#video-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+
+}
