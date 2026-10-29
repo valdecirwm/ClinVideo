@@ -17,7 +17,15 @@ navigator.mediaDevices.getUserMedia({
     console.log(`Houve um erro ${err}`)
 })
 
-socket.emit('join-room')
+socket.emit('join-room', ROOM_ID)
+
+socket.on('user-connected', () => {
+    connectToNewUser()
+})
+
+const connectToNewUser = () => {
+    console.log('Novo Usuário')
+}
 
 const addVideoStream = (video, stream) => {
     video.srcObject = stream
